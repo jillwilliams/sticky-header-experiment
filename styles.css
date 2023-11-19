@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kranky';
+
+}
+section {
+    position: relative;
+    min-height: 100vh;
+    background: var(--clr);
+
+}
+header {
+    position: relative;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: var(--clr);
+
+}
+section .box {
+    position: relative;
+    min-height: 90vh;
+    background: var(--clr);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+
+}
+header .logo {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 1.25em;
+    padding: 10px;
+
+}
+header nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 15px 10px;
+
+}
